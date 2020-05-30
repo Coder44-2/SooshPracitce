@@ -17,4 +17,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/welcomescreenbg"
         android:contentDescription="@string/background_image" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
