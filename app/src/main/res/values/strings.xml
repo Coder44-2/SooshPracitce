@@ -2,4 +2,5 @@
     <string name="app_name">SooshPracitce</string>
     <string name="background_image">Background Image</string>
     <string name="swoosh_logo">Swoosh logo</string>
+    <string name="go_all_in">Go All In</string>
 </resources>
