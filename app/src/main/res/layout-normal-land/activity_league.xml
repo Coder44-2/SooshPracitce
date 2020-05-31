@@ -55,7 +55,6 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="72dp"
         android:background="@drawable/toggle_brain"
         android:text="@string/mens"
         android:textColor="@color/colorAccent"
@@ -65,7 +64,7 @@
         android:textStyle="bold"
         app:fontFamily="@font/headland_one"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/desiredLeagueTxtFld" />
+        app:layout_constraintTop_toTopOf="@+id/womenTgBtn" />
 
     <ToggleButton
         android:id="@+id/womenTgBtn"
@@ -73,8 +72,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
+        android:layout_marginTop="75dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:layout_marginBottom="75dp"
         android:background="@drawable/toggle_brain"
         android:text="@string/womens"
         android:textColor="@color/colorAccent"
@@ -83,10 +84,10 @@
         android:textSize="18sp"
         android:textStyle="bold"
         app:fontFamily="@font/headland_one"
-        app:layout_constraintBottom_toBottomOf="@+id/CoEdTgBtn"
+        app:layout_constraintBottom_toTopOf="@+id/nextBtn"
         app:layout_constraintEnd_toStartOf="@+id/CoEdTgBtn"
         app:layout_constraintStart_toEndOf="@+id/menTgBtn"
-        app:layout_constraintTop_toTopOf="@+id/menTgBtn" />
+        app:layout_constraintTop_toBottomOf="@+id/desiredLeagueTxtFld" />
 
     <ToggleButton
         android:id="@+id/CoEdTgBtn"
@@ -94,7 +95,6 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        android:layout_marginBottom="64dp"
         android:background="@drawable/toggle_brain"
         android:text="@string/co_ed"
         android:textColor="@color/colorAccent"
@@ -103,7 +103,7 @@
         android:textSize="18sp"
         android:textStyle="bold"
         app:fontFamily="@font/headland_one"
-        app:layout_constraintBottom_toTopOf="@+id/nextBtn"
+        app:layout_constraintBottom_toBottomOf="@+id/womenTgBtn"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
