@@ -73,7 +73,7 @@
         app:layout_constraintTop_toBottomOf="@+id/goAll_In" />
 
     <TextView
-        android:id="@+id/findATmInYrCity"
+        android:id="@+id/desriedLeageTxtFld"
         android:layout_width="257dp"
         android:layout_height="48dp"
         android:layout_marginTop="45dp"

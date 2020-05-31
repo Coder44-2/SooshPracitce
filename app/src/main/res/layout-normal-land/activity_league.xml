@@ -33,7 +33,7 @@
         app:srcCompat="@drawable/swooshlogo" />
 
     <TextView
-        android:id="@+id/findATmInYrCity"
+        android:id="@+id/desriedLeageTxtFld"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
