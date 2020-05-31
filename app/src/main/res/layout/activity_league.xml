@@ -114,5 +114,25 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/menTgBtn" />
 
+    <ToggleButton
+        android:id="@+id/CoEdTgBtn"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/toggle_brain"
+        android:text="@string/co_ed"
+        android:textColor="@color/colorAccent"
+        android:textOff="@string/co_ed"
+        android:textOn="@string/co_ed"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/headland_one"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/womenTgBtn" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
